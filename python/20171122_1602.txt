@@ -1,0 +1,66 @@
+N = 2 :: 78
+Execution Time : 0.00010848045349121094
+
+N = 3 :: 121
+Execution Time : 0.00015616416931152344
+
+N = 4 :: 114
+Execution Time : 0.00043487548828125
+
+N = 5 :: 117
+Execution Time : 0.001369476318359375
+
+N = 6 :: 127
+Execution Time : 0.004136085510253906
+
+N = 7 :: 173
+Execution Time : 0.011890888214111328
+
+N = 8 :: 214
+Execution Time : 0.03347277641296387
+
+N = 9 :: 175
+Execution Time : 0.08742165565490723
+
+N = 10 :: 158
+Execution Time : 0.22100114822387695
+
+N = 11 :: 199
+Execution Time : 0.544985294342041
+
+N = 12 :: 226
+Execution Time : 1.323634386062622
+
+N = 13 :: 211
+Execution Time : 1.7111551761627197
+
+N = 14 :: 239
+Execution Time : 6.392431974411011
+
+N = 15 :: 263
+Execution Time : 10.871344089508057
+
+N = 16 :: 222
+Execution Time : 19.863927602767944
+
+N = 17 :: 251
+Execution Time : 45.34195566177368
+
+N = 18 :: 266
+Execution Time : 102.831698179245
+
+N = 19 :: 262
+Execution Time : 231.8957405090332
+
+N = 20 :: 312
+Execution Time : 538.892989397049
+
+N = 21 :: 307
+Execution Time : 1200.223747253418
+
+N = 22 :: 301
+Execution Time : 2649.454663515091
+
+N = 23 :: 330
+Execution Time : 5849.091664791107
+

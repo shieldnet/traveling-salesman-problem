@@ -25,7 +25,7 @@ def get_shortest_path(cur, visited):
 
 
 for k in range(2, 24):
-    f = open("./" + str(k) + ".txt","r")
+    f = open("../data/" + str(k) + ".txt","r")
     
     n = int(f.readline())
     w = [[]] * n
