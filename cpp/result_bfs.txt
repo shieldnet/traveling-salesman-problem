@@ -1,0 +1,11 @@
+Minimum Cost When N=2 :: 78. Execution time : 0 ms
+Minimum Cost When N=3 :: 121. Execution time : 0 ms
+Minimum Cost When N=4 :: 114. Execution time : 0 ms
+Minimum Cost When N=5 :: 117. Execution time : 0 ms
+Minimum Cost When N=6 :: 127. Execution time : 4 ms
+Minimum Cost When N=7 :: 173. Execution time : 31 ms
+Minimum Cost When N=8 :: 214. Execution time : 221 ms
+Minimum Cost When N=9 :: 175. Execution time : 1269 ms
+Minimum Cost When N=10 :: 158. Execution time : 10000 ms
+Minimum Cost When N=11 :: 199. Execution time : 105858 ms
+Minimum Cost When N=12 :: 226. Execution time : 1269956 ms
