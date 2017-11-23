@@ -5,16 +5,17 @@
 #include <vector>
 #include <algorithm>
 #include <time.h>
+#include <cstring>
 
-#define MAX 20
+#define MAX 25
 #define INF 987654321
 
 using namespace std;
 
 typedef long long LL;
 
-int n;
-int cost[MAX][MAX];
+int n=0;
+int cost[MAX][MAX] = { 0, };
 
 int tsp_brute_force(vector<int>& path, vector<bool>& visited, int curr) {
 	if (path.size() == n) {
@@ -43,27 +44,32 @@ int tsp_brute_force(vector<int>& path, vector<bool>& visited, int curr) {
 int main() {
 	FILE* result = NULL;
 	result = fopen("result_bfs.txt", "w");
+
 	n = 1;
 	for (int i = 0; i<23; i++) {
+
 		vector<int> path;
 		vector<bool> visited(MAX,false);
 		path.push_back(0);
 		visited[0] = true;
 		memset(cost, 0, sizeof(cost));
 		n++;
-		if (n == 13) break;
+		if (n == 16) break;
 		FILE* fp = NULL;
-		char file_name[100];
+		char file_name[100] = { 0, };
 
 		sprintf(file_name, "%d", n);
 
 		strcat(file_name, ".txt");
 
 		fp = fopen(file_name, "r");
+		if (fp == NULL) printf("%s File Open Failed.",file_name);
+
 
 		fscanf(fp, "%d ", &n);
 
 		clock_t st = clock();
+
 		for (int i = 0; i < n; i++)
 			for (int j = 0; j < n; j++)
 				fscanf(fp, " %d", &cost[i][j]);
